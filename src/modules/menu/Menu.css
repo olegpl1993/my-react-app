@@ -1,0 +1,15 @@
+.menu {
+  border: 1px solid coral;
+  padding: 5px;
+}
+
+.menu__list {
+  display: flex;
+  gap: 20px;
+}
+
+.menu__list li {
+  cursor: pointer;
+  color: blue;
+  font-size: 30px;
+}

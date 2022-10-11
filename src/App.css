@@ -1,0 +1,21 @@
+.App {
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  width: 1600px;
+  border: 1px solid blue;
+}
+.main {
+  width: 1600px;
+  border: 1px solid green;
+}
+.footer {
+  width: 1600px;
+  border: 1px solid violet;
+}

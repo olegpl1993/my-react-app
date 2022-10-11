@@ -1,0 +1,9 @@
+.footer__box {
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aquamarine;
+}
