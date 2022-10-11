@@ -1,21 +1,21 @@
 .App {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   border: 1px solid red;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .header {
-  width: 1600px;
   border: 1px solid blue;
+  height: 100px;
+  background-color: aquamarine;
 }
-.main {
-  width: 1600px;
+.content {
   border: 1px solid green;
+  height: 100%;
 }
 .footer {
-  width: 1600px;
   border: 1px solid violet;
+  height: 100px;
+  background-color: rgb(163, 127, 255);
 }

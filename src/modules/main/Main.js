@@ -2,8 +2,8 @@ import './Main.css';
 
 function Main() {
   return (
-    <div className="main__box">
-        TODO LIST
+    <div className="main">
+        Главная страница тут 
     </div>
   );
 }
