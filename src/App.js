@@ -6,6 +6,7 @@ import Footer from './modules/footer/Footer';
 import Slider from './modules/slider/Slider';
 import Todo from './modules/todo/Todo';
 import Notfound from './modules/notfound/Notfound';
+import Blog from './modules/blog/Blog';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       <main className='content'>
         <Routes>
           <Route path='/' element={<Main />} />
+          <Route path='/blog' element={<Blog />} />
           <Route path='/slider' element={<Slider />} />
-          <Route path='/todo' element={<Todo />}></Route>
-          <Route path='*' element={<Notfound />}></Route>
+          <Route path='/todo' element={<Todo />} />
+          <Route path='*' element={<Notfound />} />
         </Routes>
       </main>
       <footer className='footer'>

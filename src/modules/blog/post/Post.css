@@ -1,0 +1,43 @@
+.post {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 5px;
+}
+
+.post__topic {
+  font-size: 35px;
+  padding: 5px;
+}
+
+.post__button {
+  width: 180px;
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 3px 3px 3px black;
+  text-align: center;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+}
+
+.post__button:hover {
+  background-color: gray;
+}
+
+.post__button:active {
+  background-color: rgb(218, 65, 28);
+  box-shadow: 0px 0px 0px black;
+  transform: translate(3px, 3px);
+}
+
+.post__text {
+  padding: 5px;
+  font-size: 25px;
+}

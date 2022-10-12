@@ -9,6 +9,11 @@ function Menu() {
           <Link to='/'>Main</Link>
         </li>
         <li>
+          <Link to='/blog'>
+            Blog
+          </Link>
+        </li>
+        <li>
           <Link to='/slider'>
             Mem slider
           </Link>
