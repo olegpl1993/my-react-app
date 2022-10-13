@@ -1,27 +1,29 @@
 import './PostForm.css';
 import { useState } from 'react';
 
-function PostForm() {
+function PostForm({create}) {
   const [title, setTitle] = useState('');
   const [text, setText] = useState('');
 
   const addNewPost = () => { // добавляет новый пост в массив
-    //setPosts([...posts, { id: posts.length + 1, title: title, text: text }])
-    setTitle('')
-    setText('')
+    const newPost = { title: title, text: text } // новый пост
+    create(newPost) //передаем колбеком пост в модуль Blog
+    setTitle('') //очищает поле тайтл
+    setText('') //очищает поле текст
   }
+
   return (
-    <div className="blog__createPost">
-      <div className="blog__col">
+    <div className="postForm">
+      <div className="postForm__col">
         <input
-          className='blog__inputTitle'
+          className='postForm__inputTitle'
           type="text"
           placeholder='title'
           value={title}
           onInput={e => setTitle(e.target.value)}
         />
         <textarea
-          className='blog__inputBody'
+          className='postForm__inputBody'
           type="text"
           rows='3'
           placeholder='message'
@@ -29,7 +31,9 @@ function PostForm() {
           onInput={e => setText(e.target.value)}
         />
       </div>
-      <button className='blog__createPostButton button' onClick={addNewPost}>Add post</button>
+      <button className='postForm__createPostButton button' onClick={addNewPost}>Add post</button>
     </div>
   );
 }
+
+export default PostForm;
