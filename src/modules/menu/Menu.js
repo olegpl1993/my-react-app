@@ -15,12 +15,12 @@ function Menu() {
         </li>
         <li>
           <Link to='/slider'>
-            Mem slider
+            Mem-slider
           </Link>
         </li>
         <li>
           <Link to='/todo'>
-            Todo list
+            Todo
           </Link>
         </li>
       </ul>

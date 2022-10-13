@@ -5,15 +5,16 @@ import PostForm from './postForm/PostForm'
 
 function Blog() {
   //массив для хранения постов
-  const [posts, setPosts] = useState([
-    { id: 1, title: 'JS для новичков', text: 'Lorem это любимая рыба всех верстальщиков' },
-    { id: 2, title: 'JS для новичков 2', text: 'Lorem2 это рыба моей мечты' },
-    { id: 3, title: 'JS для новичков 3', text: 'Lorem3 это любимая рыба всех верстальщиков' }
-  ])
+  const [posts, setPosts] = useState([])
 
-  //калбек достает пост из компонента
-  const createPost = (newPost) => { 
-    setPosts([...posts, {...newPost, id: posts.length + 1}])
+  //калбек получает пост из компонента PostForm и добавляет в массив
+  const createPost = (newPost) => {
+    setPosts([...posts, { ...newPost, id: Date.now() }])
+  }
+
+  //калбек получает пост из компонента Post и удаляет его из массива
+  const removePost = (post) => {
+    setPosts(posts.filter(p => p.id !== post.id))
   }
 
   return (
@@ -21,7 +22,7 @@ function Blog() {
       <PostForm create={createPost} />
       <div className='blog__postList'>Post list</div>
       <div className="blog__postBox">
-        {posts.map((post) => <Post post={post} key={post.id} />)} {/* Цикл создает модули с постами*/}
+        {posts.map((post) => <Post post={post} key={post.id} remove={removePost} />)} {/* Цикл создает модули с постами*/}
       </div>
     </div>
   );

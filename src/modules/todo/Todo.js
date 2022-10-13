@@ -3,7 +3,7 @@ import './Todo.css';
 function Todo() {
   return (
     <div className="todo">
-        TODO LIST
+        TODO
     </div>
   );
 }
