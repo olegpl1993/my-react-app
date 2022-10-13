@@ -11,9 +11,6 @@ function Main() {
       <div className="line">
         {<TextInput />}
       </div>
-      <div className="line">
-        
-      </div>
     </div>
   );
 }
