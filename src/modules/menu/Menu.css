@@ -1,5 +1,4 @@
 .menu {
-  border: 1px solid coral;
   padding: 5px;
 }
 
@@ -8,8 +7,12 @@
   gap: 50px;
 }
 
-.menu__list li {
+.menu__list li a {
+  color: black;
   cursor: pointer;
-  color: blue;
   font-size: 30px;
+}
+
+.menu__list li a:hover {
+  text-decoration: underline;
 }

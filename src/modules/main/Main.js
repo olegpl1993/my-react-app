@@ -9,7 +9,7 @@ function Main() {
         <Counter />
       </div>
       <div className="line">
-        {<TextInput />}
+        <TextInput />
       </div>
     </div>
   );

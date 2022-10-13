@@ -8,7 +8,7 @@ function Counter() {
 
   return (
     <div className="counter">
-      <button button className='counter__button button' onClick={increment} > Increment</button>
+      <button className='counter__button button' onClick={increment}>Increment</button>
       <button className='counter__button button' onClick={decrement}>Decrement</button>
       <div className="counter__likes">{likes}</div>
     </div>
