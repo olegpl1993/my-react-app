@@ -25,7 +25,7 @@ function PostForm({create}) {
         <textarea
           className='postForm__inputBody'
           type="text"
-          rows='3'
+          rows='2'
           placeholder='message'
           value={text}
           onInput={e => setText(e.target.value)}

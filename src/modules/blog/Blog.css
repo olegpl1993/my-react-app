@@ -18,13 +18,6 @@
   margin-left: 25px;
 }
 
-.blog__sort {
-  height: 30px;
-  margin-left: 10px;
-  font-size: 25px;
-  border: 1px solid black;
-}
-
 .blog__postList {
   font-size: 35px;
   padding: 10px;

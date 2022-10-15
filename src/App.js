@@ -5,7 +5,6 @@ import Main from './modules/main/Main'
 import Footer from './modules/footer/Footer';
 import Slider from './modules/slider/Slider';
 import Todo from './modules/todo/Todo';
-import Notfound from './modules/notfound/Notfound';
 import Blog from './modules/blog/Blog';
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
           <Route path='/blog' element={<Blog />} />
           <Route path='/slider' element={<Slider />} />
           <Route path='/todo' element={<Todo />} />
-          <Route path='*' element={<Notfound />} />
+          <Route path='*' element={<Main />} /> {/*Если адреса не сущестувует роутинг отправляет на главную страницу*/}
         </Routes>
       </main>
       <footer className='footer'>
