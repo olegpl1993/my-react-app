@@ -4,4 +4,24 @@
   justify-content: center;
   height: 100%;
   font-size: 50px;
-  }
+  gap: 50px;
+}
+.slider__btn {
+  position: relative;
+  z-index: 1;
+}
+.slider__box {
+  width: 700px;
+  overflow: hidden;
+}
+.slider__row {
+  display: flex;
+  width: 2800px;
+  position: relative;
+  left: 0px;
+  transition: left linear 0.3s;
+}
+.slider__card {
+  height: 600px;
+  width: 700px;
+}

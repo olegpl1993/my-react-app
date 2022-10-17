@@ -1,0 +1,28 @@
+.changeImage {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.changeImage__btn {
+  height: 70px;
+}
+.changeImage__imgBox {
+  height: 300px;
+  width: 300px;
+  border: 1px solid green;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.memImg0 {
+  background-image: url('./IMG_20221014_200740.jpg');
+}
+.memImg1 {
+  background-image: url('./memas.png');
+}
+.memImg2 {
+  background-image: url('./Screenshot_20221015_232443.jpg');
+}
+.memImg3 {
+  background-image: url('./unknown.png');
+}
