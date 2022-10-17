@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/my-react-app/static/css/main.c4298d38.css",
-    "main.js": "/my-react-app/static/js/main.2de9b092.js",
+    "main.css": "/my-react-app/static/css/main.de04e3b4.css",
+    "main.js": "/my-react-app/static/js/main.6eebee63.js",
+    "static/media/mem4.png": "/my-react-app/static/media/mem4.681ada9ab17a20e71f3e.png",
+    "static/media/unknown.png": "/my-react-app/static/media/unknown.681ada9ab17a20e71f3e.png",
+    "static/media/mem2.png": "/my-react-app/static/media/mem2.52726604b1426f050dba.png",
+    "static/media/memas.png": "/my-react-app/static/media/memas.52726604b1426f050dba.png",
+    "static/media/Screenshot_20221015_232443.jpg": "/my-react-app/static/media/Screenshot_20221015_232443.692cb95e81c131cb4490.jpg",
+    "static/media/mem3.jpg": "/my-react-app/static/media/mem3.692cb95e81c131cb4490.jpg",
+    "static/media/IMG_20221014_200740.jpg": "/my-react-app/static/media/IMG_20221014_200740.fbd9e52aa25064c02558.jpg",
+    "static/media/mem1.jpg": "/my-react-app/static/media/mem1.fbd9e52aa25064c02558.jpg",
     "index.html": "/my-react-app/index.html",
-    "main.c4298d38.css.map": "/my-react-app/static/css/main.c4298d38.css.map",
-    "main.2de9b092.js.map": "/my-react-app/static/js/main.2de9b092.js.map"
+    "main.de04e3b4.css.map": "/my-react-app/static/css/main.de04e3b4.css.map",
+    "main.6eebee63.js.map": "/my-react-app/static/js/main.6eebee63.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4298d38.css",
-    "static/js/main.2de9b092.js"
+    "static/css/main.de04e3b4.css",
+    "static/js/main.6eebee63.js"
   ]
 }
