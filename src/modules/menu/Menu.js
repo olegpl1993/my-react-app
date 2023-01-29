@@ -15,7 +15,7 @@ function Menu() {
           <Link to='/slider'>MemSlider</Link>
         </li>
         <li>
-          <Link to='/todo'>Todo</Link>
+          <Link to='/muiSlider'>MuiSlider</Link>
         </li>
       </ul>
     </nav>

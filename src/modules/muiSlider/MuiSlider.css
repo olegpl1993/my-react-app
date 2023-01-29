@@ -1,0 +1,24 @@
+.muiSlider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 50px;
+    gap: 50px;
+  }
+  .muiSlider__box {
+    width: 700px;
+    overflow: hidden;
+  }
+  .muiSlider__row {
+    display: flex;
+    width: 2800px;
+    position: relative;
+    left: 0px;
+    transition: left linear 0.3s;
+  }
+  .muiSlider__card {
+    height: 600px;
+    width: 700px;
+  }
+  

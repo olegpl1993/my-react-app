@@ -11,13 +11,11 @@
 }
 
 .content {
-  border: 1px solid green;
   height: 100%;
   padding: 10px;
 }
 
 .footer {
-  border: 1px solid violet;
   height: 100px;
   background-color: rgb(163, 127, 255);
 }

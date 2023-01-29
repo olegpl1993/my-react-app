@@ -4,7 +4,7 @@ import Header from './modules/header/Header'
 import Main from './modules/main/Main'
 import Footer from './modules/footer/Footer';
 import Slider from './modules/slider/Slider';
-import Todo from './modules/todo/Todo';
+import MuiSlider from './modules/muiSlider/MuiSlider';
 import Blog from './modules/blog/Blog';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route path='/' element={<Main />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/slider' element={<Slider />} />
-          <Route path='/todo' element={<Todo />} />
+          <Route path='/muiSlider' element={<MuiSlider />} />
           <Route path='*' element={<Main />} /> {/*Если адреса не сущестувует роутинг отправляет на главную страницу*/}
         </Routes>
       </main>
