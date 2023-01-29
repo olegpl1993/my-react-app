@@ -9,19 +9,13 @@ function Menu() {
           <Link to='/'>Main</Link>
         </li>
         <li>
-          <Link to='/blog'>
-            Blog
-          </Link>
+          <Link to='/blog'>Blog</Link>
         </li>
         <li>
-          <Link to='/slider'>
-            Mem-slider
-          </Link>
+          <Link to='/slider'>MemSlider</Link>
         </li>
         <li>
-          <Link to='/todo'>
-            Todo
-          </Link>
+          <Link to='/todo'>Todo</Link>
         </li>
       </ul>
     </nav>

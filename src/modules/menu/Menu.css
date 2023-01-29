@@ -4,13 +4,13 @@
 
 .menu__list {
   display: flex;
-  gap: 50px;
+  gap: 10px;
 }
 
 .menu__list li a {
-  color: black;
+  color: rgb(255, 255, 255);
   cursor: pointer;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .menu__list li a:hover {
