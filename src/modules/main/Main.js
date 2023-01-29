@@ -2,6 +2,7 @@ import './Main.css';
 import Counter from './counter/Counter';
 import TextInput from './textInput/TextInput';
 import ChangeImage from './changeImage/ChangeImage';
+import UiTextInput from './uiTextInput/UiTextInput';
 
 function Main() {
   return (
@@ -11,6 +12,9 @@ function Main() {
       </div>
       <div className="line">
         <TextInput />
+      </div>
+      <div className="line">
+        <UiTextInput />
       </div>
       <div className="line">
         <ChangeImage />
